@@ -1,0 +1,112 @@
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 500;
+}
+
+.box {
+    height: 10rem;
+    display: block;
+    box-shadow: 10px 10px 5px grey;
+    /*background-image: url(assets/space.jpg);
+    min-height: 100%;
+    background-attachment: fixed !important;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+}
+
+.blue {
+    background-color: rgb(0, 0, 90);
+}
+
+a {
+    font-size: 18pt;
+    color: white;
+    margin-right: 20px;
+}
+
+#foot {
+    color: white;
+}
+
+.bodyContent {
+    padding: 2em;
+    background-image: url(assets/space2.jpg);
+    /*min-height: 100%;*/
+    background-attachment: scroll !important;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.container {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 44pt;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+#tab {
+    display: flex;
+    float: inline-end;
+    list-style-type: none;
+    color: white;
+    margin-top: -60px;
+}
+
+.profilePic {
+    height: 500px;
+    width: 500px;
+    box-shadow: 10px 10px 5px grey;
+}
+
+#teaching {
+    height: 500px;
+    width: 500px;
+    box-shadow: 10px 10px 5px grey;
+    margin-right: 40px;
+}
+
+p {
+    font-size: 13.6pt;
+    color: white;
+}
+
+.teachingPics img:hover {
+    transition: ease-in-out 300ms;
+    opacity: 0.5;
+}
+
+.teachingPics {
+    margin-top: 30rem;
+}
+
+.css_creature {
+    margin-top: 30rem;
+}
+
+.static_storefront {
+    margin-top: 30rem;
+}
+
+.blueBadgeProject {
+    margin-top: 30rem;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    background-color: #192543;
+}
