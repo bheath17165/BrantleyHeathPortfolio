@@ -8,7 +8,7 @@ header {
 .box {
     height: 10rem;
     display: block;
-    box-shadow: 10px 10px 5px grey;
+    box-shadow: 5px 5px 5px grey;
     /*background-image: url(assets/space.jpg);
     min-height: 100%;
     background-attachment: fixed !important;
@@ -68,13 +68,13 @@ h2 {
 .profilePic {
     height: 500px;
     width: 500px;
-    box-shadow: 10px 10px 5px grey;
+    box-shadow: 5px 5px 5px grey;
 }
 
-#teaching {
+#teaching{
     height: 500px;
     width: 500px;
-    box-shadow: 10px 10px 5px grey;
+    box-shadow: 5px 5px 5px grey;
     margin-right: 40px;
 }
 
@@ -83,14 +83,40 @@ p {
     color: white;
 }
 
-.teachingPics img:hover {
+.seattleCascades img:hover{
     transition: ease-in-out 300ms;
     opacity: 0.5;
 }
 
-.teachingPics {
-    margin-top: 30rem;
+.legacyIndoor img:hover{
+    transition: ease-in-out 300ms;
+    opacity: 0.5;
 }
+
+.seattleCascades:hover .cascadesText {
+    opacity: 1;
+}
+
+.cascadesText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-90%, -50%);
+    text-align: center;
+}
+
+.legacyText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Can't get the pictures to be in columns. Can't get the text to disapear
+when not hovered. Can't get rest of page to be image instead of white. */
+
+/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade */
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/transform */
 
 .css_creature {
     margin-top: 30rem;
